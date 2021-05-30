@@ -38,7 +38,8 @@
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="cart.html">Carrinho - <span class="cart-amunt">$0</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">0</span></a>
+                        <a href="cart.html">Carrinho - <span class="cart-amunt"></span> 
+                        <i class="fa fa-shopping-cart"></i> <span class="product-count"></span></a>
                     </div>
                 </div>
             </div>
@@ -63,7 +64,6 @@
                         <li class="active"><a href="index.html">Início</a></li>
                         <li><a href="cart.html">Carrinho</a></li>
                         <li><a href="checkout.html">Checkout</a></li>
-                        <li><a href="login.html">Login & Registo</a></li>
                         <li class="active"><a href="contactos.html">Contactos</a></li>
                     </ul>
                 </div>  
@@ -89,26 +89,22 @@
         <form id="login-form-wrap" method="post">
             <p>Deixe aqui as suas dúvidas ou comentários</p>
             <p class="form-row form-row-first">
-                <label for="username">Username or email <span class="required">*</span></label>
+                <label for="username">E-mail <span class="required">*</span></label>
                 <input type="text" id="username" name="username" class="input-text">
             </p>
-            <p class="form-row form-row-last">
-                <label for="password">Password <span class="required">*</span></label>
-                <input type="password" id="password" name="password" class="input-text">
+            <p class="form-row form-row-second">
+                <label for="title">Título <span class="required">*</span></label>
+                <input type="text" id="title" name="title" class="input-text">
             </p>
-            
+            <p class="form-row form-row-last">
+                <label for="title">Conteúdo<span class="required">*</span></label>
+                <textarea type="text" id="content" name="content" class="input-text" rows="10"></textarea>
+            </p>
             <div class="clear"></div>
 
             <p class="form-row">
-                <input type="submit" value="Login" name="login" class="button">
-                <label class="inline" for="rememberme"><input type="checkbox" value="forever" id="rememberme" name="rememberme"> Remember me </label>
+                <input type="submit" value="Submeter" name="submit" class="button">
             </p>
-            <p class="lost_password">
-                <a href="#">Lost your password?</a>
-            </p>
-
-            <div class="clear"></div>
-
         </form>
     </div>
 
@@ -130,29 +126,19 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Menus</h2>
                         <ul>
-                            <li><a href="#">Pedidos</a></li>
-                            <li><a href="#">Contactos</a></li>
-                            <li><a href="#">Página Inicial</a></li>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="cart.html">Carrinho</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="contactos.html">Contactos</a></li>
                         </ul>                        
                     </div>
                 </div>
                 
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Categorias</h2>
-                        <ul>
-                            <li><a href="#">Mobile</a></li>
-                            <li><a href="#">Computadores</a></li>
-                            <li><a href="#">Outros</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <div class="footer-newsletter">
                         <h2 class="footer-wid-title">Newsletter</h2>
                         <p>Subscreve-te à nossa Newsletter e recebe descontos exclusivos!</p>
@@ -168,14 +154,14 @@
         </div>
     </div>
 
-     <!-- Footer -->
+    <!-- Footer -->
     
     <div class="footer-bottom-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <div class="copyright">
-                        <p>&copy; 2021 eLectronics.</p>
+                        <p>&copy; 2021 eLectronics. Fábio Oliveira, nº40113 / Rodrigo Alexandre, nº40458</p>
                     </div>
                 </div>
                 
